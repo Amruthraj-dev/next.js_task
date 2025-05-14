@@ -8,14 +8,11 @@ const Layout = ({ children }: { children: ReactNode }) => {
         <header className="backdrop-blur-md bg-white/70 w-full shadow-sm text-gray-100 flex justify-between items-center sticky top-0 z-30">
           <Header/>
         </header>
-          <div className="flex min-h-screen bg-fuchsia-500">
-         
-               <Sidebar />
-            
-             
+          <div className="flex h-[calc(100vh-80px)] bg-fuchsia-500">
 
-    
-        <main className="flex-1 overflow-y-auto p-4 ">
+               <Sidebar />
+
+        <main className="flex-1 overflow-y-auto p-4 bg-gray-100 ">
           {children}
         </main>
       </div>

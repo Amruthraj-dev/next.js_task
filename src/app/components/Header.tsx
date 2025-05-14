@@ -1,11 +1,14 @@
 'use client'
 import { Menu, Transition } from '@headlessui/react'
+import Link from 'next/link'
 import { Fragment } from 'react'
 
 const Header: React.FC = () => {
   return (
     <header className="flex backdrop-blur-xl justify-between bg-linear-to-br from-violet-500 to-fuchsia-500 items-center w-full p-4  sticky top-0 z-10">
-      <div className='text-2xl'>Dashboard</div>
+      <div>
+       <Link href="/" className='text-2xl'>Dashboard</Link>
+        </div>
       <input
         type="text"
         placeholder="Global Search"

@@ -25,7 +25,7 @@ const StocksWidget = () => {
         params: {
           function: 'TIME_SERIES_DAILY',
           symbol: symbol,
-          apikey: '5FEDY7J6D9WOWHZ7',
+          apikey: '9WS7KJF9D2JC0T9A',
         }
       })
 

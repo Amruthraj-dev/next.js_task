@@ -67,7 +67,7 @@ const WeatherWidget = () => {
           lang: 'en',
         },
         headers: {
-          'X-RapidAPI-Key': '26211b7e35msh0cc0d2c03ab654cp182774jsn1d51c028d66b',
+          'X-RapidAPI-Key': 'ad06266b88msh5a848fd0f10a2a3p191b9cjsn2ff3d493b0ef',
           'X-RapidAPI-Host': 'weather-api167.p.rapidapi.com',
         }
       })
